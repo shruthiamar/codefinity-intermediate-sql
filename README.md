@@ -10,3 +10,12 @@ Return only the list of last names that meet this condition, sorted alphabetical
 Also, sort the result by the student_surname column in the ascending order.<br>
 8. [Cheating Detection] Retrieve the last names of those students who received more than one grade for the Mathematics exam.
 Retrieve only the surname of these students. The answer should have only one column.</br>
+9. [Challenge: Non-tech Department Employees] Your task is to retrieve the first name, last name, and salary of those employees who work in non-technical departments.
+To do this, use an inner query where you write the filtering using a WHERE clause.
+You also need to sort the results by salary, from highest to lowest. Use the ORDER BY clause to accomplish this subtask.</br>
+
+10. [Inner Subqueries] Your task is to retrieve the average budget (budget column) for all managerial departments from the department table. Use an inner subquery in the FROM section to filter only the managerial type of department. Also, use the alias manager_departments for this table so the task is checked correctly.
+The response should have only one column, average_budget. This is an alias for the aggregate function AVG().
+This task could also be done using a WHERE clause, but we use a nested query here to practice this syntax, which will be useful for solving more complex problems in the future.</br>
+11. [Challenge: Employees With More Than Average Salary] Find employees whose salary is above the average salary of all employees using a subquery in the WHERE section.
+The resulting table should have 3 columns: first_name, last_name, and salary. Then, sort the result by salary from highest to lowest using ORDER BY.</br>
