@@ -1,0 +1,7 @@
+SELECT category.name as category_name, MIN(product.price) as min_price 
+    FROM category 
+    JOIN product 
+    ON category.id = product.category_id 
+    GROUP BY category.name 
+    HAVING COUNT(product.name) > 5 
+    ORDER BY category.name;
