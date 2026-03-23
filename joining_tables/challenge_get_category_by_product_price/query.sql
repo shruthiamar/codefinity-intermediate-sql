@@ -1,0 +1,1 @@
+SELECT DISTINCT category.name JOIN product ON category.id = product.category_id WHERE price > 450;
