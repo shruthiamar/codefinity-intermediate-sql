@@ -19,3 +19,9 @@ The response should have only one column, average_budget. This is an alias for t
 This task could also be done using a WHERE clause, but we use a nested query here to practice this syntax, which will be useful for solving more complex problems in the future.</br>
 11. [Challenge: Employees With More Than Average Salary] Find employees whose salary is above the average salary of all employees using a subquery in the WHERE section.
 The resulting table should have 3 columns: first_name, last_name, and salary. Then, sort the result by salary from highest to lowest using ORDER BY.</br>
+12. [Challenge: Combining Table Results] Your task will be to combine the employees and contractors tables using the UNION clause.
+After that, from the resulting table, you should retrieve only those IDs that are multiples of 2. Also, you need to retrieve the first_name and last_name columns. Use the syntax WHERE id % 2 = 0. For this task, you need to use subqueries in the FROM section just as shown in the example.
+As a result, you should have 3 columns: id (an alias for the ID from both tables), first_name, last_name.</br>
+13. [JOIN 2 Tables]Your need to join the two tables: category and product. The common columns for these two tables are product.category_id and category.id.
+Your task is to find the total amount of products in each category. To do this, you need to calculate the sum of the product.amount column.
+Use the alias total_amount for this column. At the end of your query, sort the result by the total_amount column in ascending order.In the response, you should have 2 columns: category.name and total.amount.</br>
