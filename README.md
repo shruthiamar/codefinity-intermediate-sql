@@ -47,34 +47,10 @@ enrollments.student_name,
 enrollments.enrollment_date,
 courses.course_name,
 courses.description</br>
-19. [Challenge: FULL JOIN Usage] Write a query to retrieve a list of all courses and students, including those courses with no registered students and those students who are not registered for any course.To accomplish this, you will need to use a specific type of join. Also, retrieve the columns in the exact order as specified:courses.course_id,
-courses.course_name,
-courses.description,
-enrollments.student_name,
-enrollments.enrollment_date. Additionally, sort the result by the course_id column. Good luck!</br>
-20.[CREATE and Constraints] Your task is to create a table named library.This table should have 4 columns:
-id - integer primary key;
-title - varchar, not null;
-author - varchar;
-pages - int.
-At the end of the query, be sure to put a semicolon (;).Please use these column names exactly as specified.
-On the right, you will see a large amount of code; do not modify it. It is written to ensure that your solution is correctly checked. We will learn everything written there later in this section.</br>
-21.[ALTER and INSERT Operations] There is an empty table called employees with the following columns: employee_id INT PRIMARY KEY,
-first_name VARCHAR(50),
-last_name VARCHAR(50),
-department VARCHAR(50),
-salary DECIMAL(10, 2). Your task is to:
-
-Add a column country to this table, which will contain information about the country where the employee resides.
-Insert 2 rows of data into the table, which will look like this:
-id=1, first_name=Emily, last_name=Torres, department=Operations, salary=80000, country=United Kingdom.
-id=2, first_name=David, last_name=Bobr, department=Engineering, salary=95000, country=Poland.
-To accomplish this task, use ALTER TABLE for the first subtask and INSERT for the second subtask.
-
-On the right side of the code editor, some code will already be written. Please do not delete or edit this code, as it is necessary to check the correctness of your solution.</br>
-22.[UPDATE and DELETE] In the pharmaceutical market, there's inflation!
-
-The supplier company informed us that we must urgently establish a minimum price of 10 units for the product. So your task will be to update the table so that the price, which was previously less than 10, becomes 10. You can do this using the UPDATE statement.</br>
+19. [Challenge: FULL JOIN Usage] Write a query to retrieve a list of all courses and students, including those courses with no registered students and those students who are not registered for any course.To accomplish this, you will need to use a specific type of join. Also, retrieve the columns in the exact order as specified:courses.course_id, courses.course_name, courses.description, enrollments.student_name, enrollments.enrollment_date. Additionally, sort the result by the course_id column. Good luck!</br>
+20. [CREATE and Constraints] Your task is to create a table named library.This table should have 4 columns: id - integer primary key; title - varchar, not null; author - varchar; pages - int. At the end of the query, be sure to put a semicolon (;).Please use these column names exactly as specified. On the right, you will see a large amount of code; do not modify it. It is written to ensure that your solution is correctly checked. We will learn everything written there later in this section.</br>
+21. [ALTER and INSERT Operations] There is an empty table called employees with the following columns: employee_id INT PRIMARY KEY, first_name VARCHAR(50), last_name VARCHAR(50), department VARCHAR(50), salary DECIMAL(10, 2). Your task is to: Add a column country to this table, which will contain information about the country where the employee resides. Insert 2 rows of data into the table, which will look like this: id=1, first_name=Emily, last_name=Torres, department=Operations, salary=80000, country=United Kingdom. id=2, first_name=David, last_name=Bobr, department=Engineering, salary=95000, country=Poland. To accomplish this task, use ALTER TABLE for the first subtask and INSERT for the second subtask. On the right side of the code editor, some code will already be written. Please do not delete or edit this code, as it is necessary to check the correctness of your solution.</br>
+22. [UPDATE and DELETE] In the pharmaceutical market, there's inflation! The supplier company informed us that we must urgently establish a minimum price of 10 units for the product. So your task will be to update the table so that the price, which was previously less than 10, becomes 10. You can do this using the UPDATE statement.</br>
 
 
 
